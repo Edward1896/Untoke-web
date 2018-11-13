@@ -52,7 +52,7 @@
 		</div>
 	</div>
 
-	<!-- contenido -->
+<!-- contenido -->
 	<div class="cont">
 		<div class="container">
 
@@ -64,18 +64,18 @@
 			</div>
 
 
-			<div class="row pr-2 my-2 border">
-				<div class="col-md-4 d-flex my-1  justify-content-center">
-					<div class="card " style="width: 18rem;  border-radius: 12px;">
-						<img class="card-img-top" src="holder.js/287x150?bg=#7dcf90&fg=#64a573" alt="Card image cap">
+			<div class="row pr-2 my-2">
+				<div class="col-md-4 d-flex my-1  justify-content-center ">
+					<div class="card bord-card " >
+					<img class="card-img-top bord-img" src="holder.js/345x150?bg=#7dcf90&fg=#64a573" alt="Card image cap">
 						<div class="card-body">
-							<p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, perferendis!</p>
+							<p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, modi.</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4 d-flex my-1 justify-content-center">
-					<div class="card" style="width: 18rem;">
-						<img class="card-img-top" src="holder.js/287x150?bg=#7dcf90&fg=#64a573" alt="Card image cap">
+					<div class="card bord-card">
+						<img class="card-img-top bord-img" src="holder.js/345x150?bg=#7dcf90&fg=#64a573" alt="Card image cap">
 						<div class="card-body">
 							<p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque,
 								necessitatibus.</p>
@@ -83,32 +83,34 @@
 					</div>
 				</div>
 				<div class="col-md-4 d-flex my-1 justify-content-center">
-					<div class="card" style="width: 18rem;">
-						<img class="card-img-top" src="holder.js/287x150?bg=#7dcf90&fg=#64a573" alt="Card image cap">
+					<div class="card bord-card ">
+						
+						<img class="card-img-top bord-img" src="holder.js/345x150?bg=#7dcf90&fg=#64a573" alt="Card image cap">
 						<div class="card-body">
 							<p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, totam.</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4 d-flex my-1 justify-content-center">
-					<div class="card" style="width: 18rem;">
-						<img class="card-img-top" src="holder.js/287x150?bg=#7dcf90&fg=#64a573" alt="Card image cap">
+					<div class="card  bord-card ">
+						
+					<img class="card-img-top bord-img" src="holder.js/345x150?bg=#7dcf90&fg=#64a573" alt="Card image cap">
 						<div class="card-body">
 							<p class="card-text text-center ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, voluptate!</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4 d-flex my-1 justify-content-center">
-					<div class="card" style="width: 18rem;">
-						<img class="card-img-top" src="holder.js/287x150?bg=#7dcf90&fg=#64a573" alt="Card image cap">
+					<div class="card bord-card ">
+						<img class="card-img-top bord-img" src="holder.js/345x150?bg=#7dcf90&fg=#64a573" alt="Card image cap">
 						<div class="card-body">
 							<p class="card-text text-center ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, soluta.</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4 d-flex my-1 justify-content-center">
-					<div class="card" style="width: 18rem;">
-						<img class="card-img-top" src="holder.js/287x150?bg=#7dcf90&fg=#64a573" alt="Card image cap">
+					<div class="card bord-card ">
+					<img class="card-img-top bord-img" src="holder.js/345x150?bg=#7dcf90&fg=#64a573" alt="Card image cap">
 						<div class="card-body">
 							<p class="card-text text-center ">Some quick example text to build on the card title and make up the bulk of the
 								card's content.</p>
