@@ -106,3 +106,21 @@
 	background-image: none;
 	border-color: var(--color-button-hover);
 }
+
+
+
+/* Border a las card*/
+
+.bord-card {
+  border-radius: 25px;
+  border: 1px solid #BADA55;
+  width: 25rem;
+
+} 
+
+.bord-img {
+border-radius: 25px 25px 5px 5px; /* top left, top right, bottom right, bottom left */
+  border: 2px;
+}
+
+/*########################## */
