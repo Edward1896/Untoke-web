@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!-- link bootstrap 4 -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	 crossorigin="anonymous">
+	<!-- style personalizado -->
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://cdn.rawgit.com/imsky/holder/master/holder.js"></script>
+
+
+	<title>Untoke</title>
+</head>
+
+<body>
+	<!-- menu -->
+	<nav class="navbar navbar-expand-lg navbar-light navbar-menu">
+		<div class="container">
+			<a class="navbar-brand" href="#">Untoke</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+				<form class="form-inline">
+					<button class="btn btn-outline-form" type="submit">Iniciar sesión</button>
+					&nbsp;
+					<button class="btn btn-outline-form" type="submit">Registrarse</button>
+				</form>
+			</div>
+		</div>
+	</nav>
+
+	<!-- hero -->
+	<div class="background-hero">
+		<div class="hero">
+			<div class="hero-text">
+				<h1>Todo lo que quieras en Untoke</h1>
+				<p>La aplicación de compra por delivery 100% peruana</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- contenido -->
+	<div class="cont">
+		<div class="container">
+			<p class="h2">
+				Se te antojo una pizza? <br>
+				<small>pídela desde Untoke</small>
+			</p>
+			<p>Descárgate la app, ingresa, busca y pide. <br>
+				Untoke, la aplicación de pedidos a delivery creada en Pucallpa - Perú
+			</p>
+
+			<div class="row pr-2 border">
+				<div class="col-md-4 d-flex justify-content-center">
+					<div class="card" style="width: 18rem;">
+						<img class="card-img-top" src="holder.js/287x150?bg=#7dcf90&fg=#64a573" alt="Card image cap">
+						<div class="card-body">
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+								content.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 d-flex justify-content-center">
+					<div class="card" style="width: 18rem;">
+						<img class="card-img-top" src="holder.js/287x150?bg=#7dcf90&fg=#64a573" alt="Card image cap">
+						<div class="card-body">
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+								content.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 d-flex justify-content-center">
+					<div class="card" style="width: 18rem;">
+						<img class="card-img-top" src="holder.js/287x150?bg=#7dcf90&fg=#64a573" alt="Card image cap">
+						<div class="card-body">
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+								content.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="row border">
+				<div class="col-12 col-md-4"> 1</div>
+				<div class="col-12 col-md-4"> 2</div>
+				<div class="col-12 col-md-4"> 3</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- script bootstrap 4-->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+	 crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+	 crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+	 crossorigin="anonymous"></script>
+
+</body>
+
+</html>
