@@ -1,1 +1,9 @@
-$(function(){$(window).width()<992||($(".tagline").addClass("typing"),setTimeout(function(){function i(t,r,u){r<t.length?(n.show().html(t.substring(0,r+1)),setTimeout(function(){i(t,r+1,u)},100)):typeof u=="function"&&setTimeout(u,2e3)}function r(t,i){t>0?(n.html(n.html().substring(0,t-1)),setTimeout(function(){r(t-1,i)},100)):typeof i=="function"&&setTimeout(i,100)}function u(f){r(n.html().length,function(){i(t[f],0,function(){u((f+1)%t.length)})})}var t=["web","mobile","desktop","gaming","IoT","all your"],n=$(".tagline");u(0)},3e3))});
+$('document').ready(function(){
+	var typed = new Typed('#typed',{
+		// aquí se escriben las frases que aparecerán en el efecto MAQUINA DE ESCRIBIR.
+		strings:["Busca, escoge, y pide. en cientos de tiendas del país.","La aplicación de compra por delivery 100% peruana"],
+		backSpeed: 30,	//tiempo de borrado
+		typeSpeed: 60,	//tiempo de escritura
+		loop: true			//que se repita
+	})
+})
