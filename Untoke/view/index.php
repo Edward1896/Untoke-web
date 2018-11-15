@@ -54,81 +54,215 @@
 			</div>
 		</div>
 	</div>
+		<!-- contenido -->
+		<div class="cont">
+			<div class="container">
 
-	<!-- contenido -->
-	<div class="cont">
-		<div class="container">
+				<div class="row">
+					<div class="col text-center">
+						<h1>Establecimientos Destacados</h1>
+						<img src="http://pngimg.com/uploads/gps/gps_PNG1.png" width="100">
+					</div>
+				</div>
 
-			<div class="row">
-				<div class="col text-center">
-					<h1>Establecimientos Destacados</h1>
-					<img src="http://pngimg.com/uploads/gps/gps_PNG1.png" width="100">
+
+				<div class="row pr-2 my-2">
+					<div class="col-md-4 d-flex my-1  justify-content-center ">
+						<div class="card bord-card " >
+						<img class="card-img-top bord-img" src="holder.js/345x150?bg=#7dcf90&fg=#64a573" alt="Card image cap">
+							<div class="card-body">
+								<p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, modi.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 d-flex my-1 justify-content-center">
+						<div class="card bord-card">
+							<img class="card-img-top bord-img" src="holder.js/345x150?bg=#7dcf90&fg=#64a573" alt="Card image cap">
+							<div class="card-body">
+								<p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque,
+									necessitatibus.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 d-flex my-1 justify-content-center">
+						<div class="card bord-card ">
+							
+							<img class="card-img-top bord-img" src="holder.js/345x150?bg=#7dcf90&fg=#64a573" alt="Card image cap">
+							<div class="card-body">
+								<p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, totam.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 d-flex my-1 justify-content-center">
+						<div class="card  bord-card ">
+						<img class="card-img-top bord-img" src="holder.js/345x150?bg=#7dcf90&fg=#64a573" alt="Card image cap">
+							<div class="card-body">
+								<p class="card-text text-center ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, voluptate!</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 d-flex my-1 justify-content-center">
+						<div class="card bord-card ">
+							<img class="card-img-top bord-img" src="holder.js/345x150?bg=#7dcf90&fg=#64a573" alt="Card image cap">
+							<div class="card-body">
+								<p class="card-text text-center ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, soluta.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 d-flex my-1 justify-content-center">
+						<div class="card bord-card ">
+						<img class="card-img-top bord-img" src="holder.js/345x150?bg=#7dcf90&fg=#64a573" alt="Card image cap">
+							<div class="card-body">
+								<p class="card-text text-center ">Some quick example text to build on the card title and make up the bulk of the
+									card's content.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+
+
+		<div class="col-12 col-md-12 bg-primary">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 text-right my-3">
+						<img src="https://www.wtsoftware.com.br/images/wspy/bg-espiao-celular.png" alt="">
+					</div>
+
+					<div class="col-md-5 text-right my-5">
+						<blockquote class="blockquote text-center">
+							<p class="lead"><h4>
+								<strong>Descarga la App Untoke!
+							La primera plataforma de ventas,compras,pedidos y delivery's Online del Perú, Innova tu negocio de una manera rapida y sencilla con nuestro sistema de pedidos y delivery
+								</strong>
+							</h4></p>
+								<footer class="blockquote-footer">
+								<img src="https://vignette.wikia.nocookie.net/shingeki-no-kyojin/images/a/a4/Google-Play-Bot%C3%B3n.png/revision/latest?cb=20170828190528&path-prefix=es" alt="Google Play" width="150" >
+
+								</footer>
+						</blockquote>	
+					</div>
 				</div>
 			</div>
+		</div>
 
+		<div class="container">
+			<div class="row my-3">
+				<div class="col-md-12">
+					<h3>Nuestra Comunidad</h3>
+					Descubre millones de expereciencias y opiniones de usuarios
+				</div>
 
-			<div class="row pr-2 my-2 border">
-				<div class="col-md-4 d-flex my-1  justify-content-center">
-					<div class="card " style="width: 18rem;  border-radius: 12px;">
-						<img class="card-img-top" src="holder.js/287x150?bg=#7dcf90&fg=#64a573" alt="Card image cap">
-						<div class="card-body">
-							<p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, perferendis!</p>
+				<div class="col-md-3 d-flex my-1 justify-content-center">
+					<div class="card bord-card ">
+							<img class="card-img-top rounded-circle align-self-center my-2" src="holder.js/100x100?bg=#7dcf90&fg=#64a573" alt="Card image cap">
+								<div class="text-center">Hola</div>	
+						<div class="align-self-center">	
+							<form>
+							  <p class="clasificacion">
+							    <input id="radio1" type="radio" name="estrellas" value="5"><!--
+							    --><label for="radio1">★</label><!--
+							    --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+							    --><label for="radio2">★</label><!--
+							    --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+							    --><label for="radio3">★</label><!--
+							    --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+							    --><label for="radio4">★</label><!--
+							    --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+							    --><label for="radio5">★</label>
+							  </p>
+							</form>
 						</div>
-					</div>
-				</div>
-				<div class="col-md-4 d-flex my-1 justify-content-center">
-					<div class="card" style="width: 18rem;">
-						<img class="card-img-top" src="holder.js/287x150?bg=#7dcf90&fg=#64a573" alt="Card image cap">
-						<div class="card-body">
-							<p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque,
-								necessitatibus.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 d-flex my-1 justify-content-center">
-					<div class="card" style="width: 18rem;">
-						<img class="card-img-top" src="holder.js/287x150?bg=#7dcf90&fg=#64a573" alt="Card image cap">
 						<div class="card-body">
 							<p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, totam.</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 d-flex my-1 justify-content-center">
-					<div class="card" style="width: 18rem;">
-						<img class="card-img-top" src="holder.js/287x150?bg=#7dcf90&fg=#64a573" alt="Card image cap">
-						<div class="card-body">
-							<p class="card-text text-center ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, voluptate!</p>
+				<div class="col-md-3 d-flex my-1 justify-content-center">
+					<div class="card bord-card ">
+						<img class="card-img-top rounded-circle align-self-center my-2" src="holder.js/100x100?bg=#7dcf90&fg=#64a573" alt="Card image cap">
+							<div class="text-center">Hola</div>
+							<div class="align-self-center">	
+							<form>
+							  <p class="clasificacion">
+							    <input id="radio1" type="radio" name="estrellas" value="5"><!--
+							    --><label for="radio1">★</label><!--
+							    --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+							    --><label for="radio2">★</label><!--
+							    --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+							    --><label for="radio3">★</label><!--
+							    --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+							    --><label for="radio4">★</label><!--
+							    --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+							    --><label for="radio5">★</label>
+							  </p>
+							</form>
 						</div>
-					</div>
-				</div>
-				<div class="col-md-4 d-flex my-1 justify-content-center">
-					<div class="card" style="width: 18rem;">
-						<img class="card-img-top" src="holder.js/287x150?bg=#7dcf90&fg=#64a573" alt="Card image cap">
-						<div class="card-body">
-							<p class="card-text text-center ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, soluta.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 d-flex my-1 justify-content-center">
-					<div class="card" style="width: 18rem;">
-						<img class="card-img-top" src="holder.js/287x150?bg=#7dcf90&fg=#64a573" alt="Card image cap">
-						<div class="card-body">
-							<p class="card-text text-center ">Some quick example text to build on the card title and make up the bulk of the
-								card's content.</p>
-						</div>
-					</div>
-				</div>
-			</div>
 
 
-			<div class="row my-2 border">
-				<div class="col-12 col-md-4"> 1</div>
-				<div class="col-12 col-md-4"> 2</div>
-				<div class="col-12 col-md-4"> 3</div>
+						<div class="card-body">
+							<p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, totam.</p>
+						</div>
+					</div>
+				</div>
+					<div class="col-md-3 d-flex my-1 justify-content-center">
+					<div class="card bord-card ">
+						<img class="card-img-top rounded-circle align-self-center my-2" src="holder.js/100x100?bg=#7dcf90&fg=#64a573" alt="Card image cap">
+						<div class="text-center">Hola</div>
+					<div class="align-self-center">	
+							<form>
+							  <p class="clasificacion">
+							    <input id="radio1" type="radio" name="estrellas" value="5"><!--
+							    --><label for="radio1">★</label><!--
+							    --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+							    --><label for="radio2">★</label><!--
+							    --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+							    --><label for="radio3">★</label><!--
+							    --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+							    --><label for="radio4">★</label><!--
+							    --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+							    --><label for="radio5">★</label>
+							  </p>
+							</form>
+						</div>
+
+						<div class="card-body">
+							<p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, totam.</p>
+						</div>
+					</div>
+				</div>
+					<div class="col-md-3 d-flex my-1 justify-content-center">
+					<div class="card bord-card">
+					<img class="card-img-top rounded-circle align-self-center my-2" src="holder.js/100x100?bg=#7dcf90&fg=#64a573" alt="Card image cap">
+						<div class="text-center">Hola</div>
+					<div class="align-self-center">	
+							<form>
+							  <p class="clasificacion">
+							    <input id="radio1" type="radio" name="estrellas" value="5"><!--
+							    --><label for="radio1">★</label><!--
+							    --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+							    --><label for="radio2">★</label><!--
+							    --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+							    --><label for="radio3">★</label><!--
+							    --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+							    --><label for="radio4">★</label><!--
+							    --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+							    --><label for="radio5">★</label>
+							  </p>
+							</form>
+						</div>
+						<div class="card-body">
+							<p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, totam.</p>
+						</div>
+					</div>
+				</div>
+				
 			</div>
 		</div>
-	</div>
-
+	
 	<!-- script bootstrap 4-->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
 	 crossorigin="anonymous"></script>
