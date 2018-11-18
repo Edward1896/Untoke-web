@@ -1,21 +1,27 @@
-/* color corporative */
+/* color corporativo 
+		color hsl #6B41CD 
+		
+*/
 
 /* @import */
 @import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans|PT+Sans|Patua+One|Raleway|Roboto|Source+Sans+Pro|Titillium+Web|Ubuntu|Varela+Round');
 
 :root {
-	/* color hsl #64B1CD */
+	/* variables generales de los valores predeterminados */
 	--main-bg-color: rgba(189, 17, 242, 0);
 	--color-button: rgb(255, 255, 255);
 	--color-button-hover: rgba(255, 255, 255, 0.219);
-	/* --main-fuente: 'Roboto', sans-serif; */
 	--main-fuente: 'Ubuntu', sans-serif;
 }
 
+/* -------------- CONTENEDOR HERO ---------------- */
+/* transparencia al nav-menu */
 .navbar-menu {
-	background-color: rgba(189, 17, 242, 0);
+	background-color: rgba(0, 0, 0, 0);
 }
-.background-color-hero{
+
+/* div del color degrado */
+.background-color-hero {
 	background: rgba(190, 17, 242, 0.8);
 	background: -moz-linear-gradient(top, rgba(190, 17, 242, 0.8) 0%, rgba(100, 177, 205, 0.8) 100%);
 	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(190, 17, 242, 0.8)), color-stop(100%, rgba(100, 177, 205, 0.8)));
@@ -29,6 +35,8 @@
 	-webkit-border-radius: 0px 0px 601px 0px;
 
 }
+
+/* div de la imagen de inicio */
 .background-img-hero {
 	background-image: url(../img/hero.jpeg);
 	z-index: -70px;
@@ -40,11 +48,11 @@
 	-moz-border-radius: 0px 0px 601px 0px;
 	-webkit-border-radius: 0px 0px 601px 0px;
 }
+
 .hero {
 	height: 600px;
 	position: relative;
 }
-
 
 .navbar-light .logo {
 	font-size: 2em;
@@ -65,10 +73,11 @@
 	font-size: 3em;
 }
 
-.hero-text p {
+.hero-text span {
 	font-size: 1.5em;
 }
 
+/* media query aliniacion del texto hero */
 @media (max-width: 500px) {
 	.hero-text {
 		text-align: left;
@@ -76,7 +85,7 @@
 	}
 
 	.hero-text h1 {
-		font-size: 02em;
+		font-size: 2.5em;
 	}
 
 	.hero-text p {
@@ -84,15 +93,7 @@
 	}
 }
 
-.navbar-light .navbar-toggler {
-	color: var(--color-button);
-	border-color: var(--color-button);
-}
-
-.navbar-light .navbar-toggler-icon {
-	color: var(--color-button);
-}
-
+/* botones registro - inicio sesion */
 .btn-outline-form {
 	color: var(--color-button);
 	background-color: transparent;
@@ -107,20 +108,22 @@
 	border-color: var(--color-button-hover);
 }
 
-
+/* fin botones registro - inicio sesion */
+/* -------------- FIN CONTENEDOR HERO ---------------- */
 
 /* Border a las card*/
 
 .bord-card {
-  border-radius: 25px;
-  border: 1px solid #BADA55;
-  width: 25rem;
+	border-radius: 25px;
+	border: 1px solid #BADA55;
+	width: 25rem;
 
-} 
+}
 
 .bord-img {
-border-radius: 25px 25px 5px 5px; /* top left, top right, bottom right, bottom left */
-  border: 2px;
+	border-radius: 25px 25px 5px 5px;
+	/* top left, top right, bottom right, bottom left */
+	border: 2px;
 }
 
 /*########################## */
@@ -129,41 +132,68 @@ border-radius: 25px 25px 5px 5px; /* top left, top right, bottom right, bottom l
 /* Clasificacion por estrella  */
 
 #form {
-  width: 250px;
-  margin: 0 auto;
-  height: 50px;
+	width: 250px;
+	margin: 0 auto;
+	height: 50px;
 }
 
 #form p {
-  text-align: center;
+	text-align: center;
 }
 
 #form label {
-  font-size: 20px;
+	font-size: 20px;
 }
 
 input[type="radio"] {
-  display: none;
+	display: none;
 }
 
 label {
-  color: grey;
+	color: grey;
 }
 
 .clasificacion {
-  direction: rtl;
-  unicode-bidi: bidi-override;
+	direction: rtl;
+	unicode-bidi: bidi-override;
 }
 
 label:hover,
-label:hover ~ label {
-  color: orange;
+label:hover~label {
+	color: orange;
 }
 
-input[type="radio"]:checked ~ label {
-  color: orange;
+input[type="radio"]:checked~label {
+	color: orange;
 }
 
+/* publicidad */
+.publicidad{
+	font-family: var(--main-fuente);
+	color: #fff;
+}
 
-/* */
+.publicidad .descarga{
+	color: #fff;
+}
 
+/* fin publicidad */
+
+
+/* footer */
+.footer{
+	background-color: #212733;
+	font-family: var(--main-fuente);
+	color:#BBBABA;
+}
+
+.footer a{
+	color:#BBBABA;
+	text-decoration: underline;
+}
+.footer a:hover{
+	color:#fff;
+}
+.footer .fab{
+	font-size: 1.5em;
+}
