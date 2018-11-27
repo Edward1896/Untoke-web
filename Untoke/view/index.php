@@ -15,6 +15,8 @@
 	<!-- style personalizado -->
 	<link rel="stylesheet" href="fonts/style.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/carrusel_comentarios.css">
+	<link rel="stylesheet" href="css/sss/sss.css">
 	<title>Untoke</title>
 </head>
 
@@ -149,120 +151,39 @@
 	</div>
 	<!-- /publicidad -->
 
+	
 	<!-- comentarios -->
 	<div class="container">
 		<div class="row my-3">
-			<div class="col-md-12">
+			<div class="col-md-12 text-center">
 				<h3>Nuestra Comunidad</h3>
 				Descubre millones de experiencias y opiniones de usuarios
 			</div>
-
-			<div class="col-md-3 d-flex my-1 justify-content-center">
-				<div class="card bord-card ">
-					<img class="card-img-top rounded-circle align-self-center my-2" src="holder.js/100x100?bg=#7dcf90&fg=#64a573" alt="Card image cap">
-					<div class="text-center">Hola</div>
-					<div class="align-self-center">
-						<form>
-							<p class="clasificacion">
-								<input id="radio1" type="radio" name="estrellas" value="5">
-								<label for="radio1">★</label>
-								<input id="radio2" type="radio" name="estrellas" value="4">
-								<label for="radio2">★</label>
-								<input id="radio3" type="radio" name="estrellas" value="3">
-								<label for="radio3">★</label>
-								<input id="radio4" type="radio" name="estrellas" value="2">
-								<label for="radio4">★</label>
-								<input id="radio5" type="radio" name="estrellas" value="1">
-								<label for="radio5">★</label>
-							</p>
-						</form>
+			
+				<div class="wrapper text-center">
+					<div class="slider-testimonial">
+					<div class="testimonial-item">
+						<div class="testimonial-text">
+							 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fgabrielss.372%2Fposts%2F1026785530856183&width=500" width="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media">
+		                	</iframe>
+						</div>
 					</div>
-					<div class="card-body">
-						<p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, totam.</p>
+					<div class="testimonial-item">
+						<div class="testimonial-text">
+							 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FEd.Romel96%2Fposts%2F1083879851820648&width=500" width="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media">
+		                	</iframe>
+						</div>
 					</div>
-				</div>
-			</div>
-			<div class="col-md-3 d-flex my-1 justify-content-center">
-				<div class="card bord-card ">
-					<img class="card-img-top rounded-circle align-self-center my-2" src="holder.js/100x100?bg=#7dcf90&fg=#64a573" alt="Card image cap">
-					<div class="text-center">Hola</div>
-					<div class="align-self-center">
-						<form>
-							<p class="clasificacion">
-								<input id="radio10" type="radio" name="estrellas2" value="5">
-								<label for="radio10">★</label>
-								<input id="radio20" type="radio" name="estrellas2" value="4">
-								<label for="radio20">★</label>
-								<input id="radio30" type="radio" name="estrellas2" value="3">
-								<label for="radio30">★</label>
-								<input id="radio40" type="radio" name="estrellas2" value="2">
-								<label for="radio40">★</label>
-								<input id="radio50" type="radio" name="estrellas2" value="1">
-								<label for="radio50">★</label>
-							</p>
-						</form>
-					</div>
-
-
-					<div class="card-body">
-						<p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, totam.</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-3 d-flex my-1 justify-content-center">
-				<div class="card bord-card ">
-					<img class="card-img-top rounded-circle align-self-center my-2" src="holder.js/100x100?bg=#7dcf90&fg=#64a573" alt="Card image cap">
-					<div class="text-center">Hola</div>
-					<div class="align-self-center">
-						<form>
-							<p class="clasificacion">
-								<input id="radio100" type="radio" name="estrellas3" value="5">
-								<label for="radio100">★</label>
-								<input id="radio200" type="radio" name="estrellas3" value="4">
-								<label for="radio200">★</label>
-								<input id="radio300" type="radio" name="estrellas3" value="3">
-								<label for="radio300">★</label>
-								<input id="radio400" type="radio" name="estrellas3" value="2">
-								<label for="radio400">★</label>
-								<input id="radio500" type="radio" name="estrellas3" value="1">
-								<label for="radio500">★</label>
-							</p>
-						</form>
-					</div>
-
-					<div class="card-body">
-						<p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, totam.</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-3 d-flex my-1 justify-content-center">
-				<div class="card bord-card">
-					<img class="card-img-top rounded-circle align-self-center my-2" src="holder.js/100x100?bg=#7dcf90&fg=#64a573" alt="Card image cap">
-					<div class="text-center">Hola</div>
-					<div class="align-self-center">
-						<form>
-							<p class="clasificacion">
-								<input id="radio1000" type="radio" name="estrellas4" value="5">
-								<label for="radio1000">★</label>
-								<input id="radio2000" type="radio" name="estrellas4" value="4">
-								<label for="radio2000">★</label>
-								<input id="radio3000" type="radio" name="4" value="3">
-								<label for="radio3000">★</label>
-								<input id="radio4000" type="radio" name="estrellas4" value="2">
-								<label for="radio4000">★</label>
-								<input id="radio5000" type="radio" name="estrellas4" value="1">
-								<label for="radio5000">★</label>
-							</p>
-						</form>
-					</div>
-					<div class="card-body">
-						<p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, totam.</p>
+					<div class="testimonial-item">
+						<div class="testimonial-text">
+							 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmoshe.gomes%2Fposts%2F2022963231144885&width=500" width="500" height="200" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- /comentarios -->
+<!-- /comentarios -->
 
 	<!-- Footer -->
 	<footer class="font-small pt-4 footer">
@@ -343,6 +264,18 @@
 	<!-- script bootstrap 4 CDN-->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
 	 crossorigin="anonymous"></script>
+		<!--carousel comments-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="css/sss/sss.js"></script>
+			<script>
+			    jQuery(function($){
+			        $('.slider-testimonial').sss({
+			        	slideShow : true,
+			        	speed : 3500
+			        });
+			    });
+			</script>
+	<!--/carousel comments-->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
 	 crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
