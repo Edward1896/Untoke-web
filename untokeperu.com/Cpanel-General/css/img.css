@@ -1,0 +1,10 @@
+img{
+    width: 15em;
+    height: 10em;
+    border-radius: .5em;
+    border: .1em lightgray solid;
+    box-shadow: 0 .5em .5em;
+    opacity: 0;
+    display: block;
+    transition: 2.5s;
+}
