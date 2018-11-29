@@ -9,9 +9,15 @@
 :root {
 	/* variables generales de los valores predeterminados */
 	--main-bg-color: rgba(189, 17, 242, 0);
+	--color-principal: #40CBF8;
+	--color-secundario: #6B41CD;
 	--color-button: rgb(255, 255, 255);
 	--color-button-hover: rgba(255, 255, 255, 0.219);
 	--main-fuente: 'Ubuntu', sans-serif;
+}
+
+body{
+	font-family: var(--main-fuente);
 }
 
 /* -------------- CONTENEDOR HERO ---------------- */
@@ -33,7 +39,6 @@
 	border-radius: 0px 0px 601px 0px;
 	-moz-border-radius: 0px 0px 601px 0px;
 	-webkit-border-radius: 0px 0px 601px 0px;
-
 }
 
 /* div de la imagen de inicio */
@@ -128,6 +133,18 @@
 
 /*########################## */
 
+.detalle{
+	padding-top: 3em;
+}
+.detalle .cicler{
+	width:  5em;
+	height: 5em;
+	background-color: var(--color-principal);
+}
+.detalle .cicler i{
+	font-size: 3em;
+	color: #fff;
+}
 
 /* Clasificacion por estrella  */
 
@@ -168,14 +185,12 @@ input[type="radio"]:checked~label {
 }
 
 /* publicidad */
-.publicidad{
-	font-family: var(--main-fuente);
-	color: #fff;
-}
+.cont-publicidad{
+	background: var(--color-principal);
+	border: 0px none;
+	height: 230px;
+	}
 
-.publicidad .descarga{
-	color: #fff;
-}
 
 /* fin publicidad */
 

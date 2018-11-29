@@ -37,7 +37,7 @@
 
 					<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
 						<form class="form-inline">
-							<button class="btn btn-outline-form" type="submit">Mi Panel</button>
+							<button class="btn btn-outline-form" type="submit" disabled>Mi Panel</button>
 						</form>
 					</div>
 				</div>
@@ -53,98 +53,65 @@
 	</div>
 
 	<!-- contenido -->
-	<div class="cont">
-		<div class="container">
-
-			<div class="row">
-				<div class="col text-center">
-					<h1>Establecimientos Destacados</h1>
-					<img src="http://pngimg.com/uploads/gps/gps_PNG1.png" width="100">
-				</div>
-			</div>
-
-
-			<div class="row pr-2 my-2">
-				<div class="col-md-4 d-flex my-1  justify-content-center ">
-					<div class="card bord-card ">
-						<img class="card-img-top bord-img" src="holder.js/345x150?bg=#7dcf90&fg=#64a573" alt="Card image cap">
-						<div class="card-body">
-							<p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, modi.</p>
+	<div class="container my-3">
+		<p class="h1 text-center">Conoce más de Untoke</p>
+		<div class="row d-flex align-items-center">
+			<div class="col-7">
+				<div class='row detalle'>
+					<div class='col-2'>
+						<div class="cicler rounded-circle text-center d-flex justify-content-center align-items-center">
+							<i class="fas fa-utensils"></i>
 						</div>
 					</div>
-				</div>
-				<div class="col-md-4 d-flex my-1 justify-content-center">
-					<div class="card bord-card">
-						<img class="card-img-top bord-img" src="holder.js/345x150?bg=#7dcf90&fg=#64a573" alt="Card image cap">
-						<div class="card-body">
-							<p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque,
-								necessitatibus.</p>
-						</div>
+					<div class="col-10">
+						<p class="h3 title">¿Se te antoja algo?</p>
+						<p class="detall">Selecciona la categoría y pide en cientos de tiendas
+							registradas y recomendadas.</p>
 					</div>
 				</div>
-				<div class="col-md-4 d-flex my-1 justify-content-center">
-					<div class="card bord-card ">
-
-						<img class="card-img-top bord-img" src="holder.js/345x150?bg=#7dcf90&fg=#64a573" alt="Card image cap">
-						<div class="card-body">
-							<p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, totam.</p>
+				<div class='row detalle'>
+					<div class='col-2 '>
+						<div class="cicler rounded-circle text-center d-flex justify-content-center align-items-center">
+							<i class="fas fa-rocket"></i>
 						</div>
 					</div>
-				</div>
-				<div class="col-md-4 d-flex my-1 justify-content-center">
-					<div class="card  bord-card ">
-						<img class="card-img-top bord-img" src="holder.js/345x150?bg=#7dcf90&fg=#64a573" alt="Card image cap">
-						<div class="card-body">
-							<p class="card-text text-center ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, voluptate!</p>
-						</div>
+					<div class="col-10">
+						<p class="h3 title">Atención Inmediata</p>
+						<p class="detall">No esperes mucho, tus pedidos en la puerta de tu casa.</p>
 					</div>
 				</div>
-				<div class="col-md-4 d-flex my-1 justify-content-center">
-					<div class="card bord-card ">
-						<img class="card-img-top bord-img" src="holder.js/345x150?bg=#7dcf90&fg=#64a573" alt="Card image cap">
-						<div class="card-body">
-							<p class="card-text text-center ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, soluta.</p>
+				<div class='row detalle'>
+					<div class='col-2 '>
+						<div class="cicler rounded-circle text-center d-flex justify-content-center align-items-center">
+							<i class="fas fa-medal"></i>
 						</div>
 					</div>
-				</div>
-				<div class="col-md-4 d-flex my-1 justify-content-center">
-					<div class="card bord-card ">
-						<img class="card-img-top bord-img" src="holder.js/345x150?bg=#7dcf90&fg=#64a573" alt="Card image cap">
-						<div class="card-body">
-							<p class="card-text text-center ">Some quick example text to build on the card title and make up the bulk of the
-								card's content.</p>
-						</div>
+					<div class="col-10">
+						<p class="h3 title">Establecimientos garantizados</p>
+						<p class="detall">Solo encontraras servicios y producto de calidad.</p>
 					</div>
 				</div>
 			</div>
 
+			<div class="col-5">
+				<img src="img/props/phone2.png" class="img-fluid" alt="">
+			</div>
 		</div>
 	</div>
 	<!-- /contenido -->
 
 	<!-- publicidad -->
-	<div class="col-12 col-md-12 bg-primary">
+	<div class="col-12 cont-publicidad">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-6 text-right my-3">
-					<img src="https://www.wtsoftware.com.br/images/wspy/bg-espiao-celular.png" alt="">
+			<div class="row d-flex align-items-center">
+				<div class="col-8 text">
+					<p class="h2 ">Descarga la App</p>
+					<p class="h4">Una manera sencilla de pedir todo lo que quieras en Untoke.</p>
 				</div>
-
-				<div class="col-md-6 d-flex align-items-center publicidad">
-					<blockquote class="text-center">
-						<p class="h3">
-							<br>	
-							La primera plataforma de ventas y compras por delivery Online
-							de Pucallpa.
-							<br>
-							Innova tu negocio de una manera
-							rápida y sencilla con nuestro sistema de pedidos por delivery.							
-						</p>
-						<footer class="blockquote-footer">
-							<p class="h4 descarga">Descarga la App Untoke!</p>
-							<a href="https://play.google.com/store/apps/details?id=com.miranda.untokeplus&hl=es_PE"><img src="img/GooglePlay.png" width="200"></a>
-						</footer>
-					</blockquote>
+				<div class="col-4 text-center">					
+					<img src="img/props/QR.png" alt="Código QR" width="150"><br>
+					<a href="https://play.google.com/store/apps/details?id=com.miranda.untokeplus&hl=es_PE"><img src="img/props/GooglePlay.png"
+						 width="150"></a>
 				</div>
 			</div>
 		</div>
@@ -199,25 +166,24 @@
 				<!-- <hr class="w-100 clearfix d-md-none"> -->
 				<div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
 					<h6 class="text-uppercase mb-4 titule_footer">Términos legales</h6>
-					<p><a href="#!">Términos y condiciones</a></p>
-					<p><a href="#!">Seguridad de datos</a></p>
+					<p><a href="#!" class="btn disabled">Términos y condiciones</a></p>
+					<p><a href="#!" class="btn disabled">Seguridad de datos</a></p>
 				</div>
 				<!-- <hr class="w-100 clearfix d-md-none"> -->
 				<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
 					<h6 class="text-uppercase mb-4 titule_footer">Opciones</h6>
-					<p><a href="#!">Acerca de</a></p>
-					<p><a href="#!">Misión y visión</a></p>
-					<p><a href="#!">Registrarse</a></p>
-					<p><a href="#!">Inicia sesión</a></p>
-					<p><a href="#!">Ayuda</a></p>
+					<p><a href="#!" class="btn disabled">Acerca de</a></p>
+					<p><a href="#!" class="btn disabled">Misión y visión</a></p>
+					<p><a href="#!" class="btn disabled">Inicia sesión</a></p>
+					<p><a href="#!" class="btn disabled">Ayuda</a></p>
 				</div>
 				<!-- <hr class="w-100 clearfix d-md-none"> -->
 				<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
 					<h6 class="text-uppercase mb-4 titule_footer">Contactos</h6>
-					<p><i class="fas fa-map-marker-alt mr-3"></i> New York, NY 10012, US</p>
-					<p><i class="fa fa-envelope mr-3"></i> consultas@untoke.com</p>
-					<p><i class="fa fa-phone mr-3"></i> 061 5248</p>
-					<p><i class="fas fa-mobile-alt mr-3"></i> +51 951 365 741</p>
+					<p><i class="fas fa-map-marker-alt mr-3"></i>Jr.Bolivia mz.370 lt.11 <br> Pucallpa - Callearía - Perú</p>
+					<p><i class="fa fa-envelope mr-3"></i>untokeapp@gmail.com</p>
+					<!-- <p><i class="fa fa-phone mr-3"></i> 061 5248</p> -->
+					<p><i class="fas fa-mobile-alt mr-3"></i>+51 978 491 093</p>
 				</div>
 			</div>
 			<!-- Footer links -->
@@ -238,11 +204,11 @@
 									<i class="fab fa-facebook"></i>
 								</a>
 							</li>
-							<li class="list-inline-item">
+							<!-- <li class="list-inline-item">
 								<a href="https://twitter.com/Untoke_app?lang=es" class="btn-floating btn-sm rgba-white-slight mx-1">
 									<i class="fab fa-twitter-square"></i>
 								</a>
-							</li>
+							</li> -->
 							<li class="list-inline-item">
 								<a href="https://www.youtube.com/channel/UCcP1kpeGgKqcDCNKgAFvH4A" class="btn-floating btn-sm rgba-white-slight mx-1">
 									<i class="fab fa-youtube"></i>
