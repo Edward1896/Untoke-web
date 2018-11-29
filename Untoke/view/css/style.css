@@ -16,7 +16,7 @@
 	--main-fuente: 'Ubuntu', sans-serif;
 }
 
-body{
+body {
 	font-family: var(--main-fuente);
 }
 
@@ -83,20 +83,7 @@ body{
 }
 
 /* media query aliniacion del texto hero */
-@media (max-width: 500px) {
-	.hero-text {
-		text-align: left;
-		top: 40%;
-	}
 
-	.hero-text h1 {
-		font-size: 2.5em;
-	}
-
-	.hero-text p {
-		font-size: 1em;
-	}
-}
 
 /* botones registro - inicio sesion */
 .btn-outline-form {
@@ -133,15 +120,17 @@ body{
 
 /*########################## */
 
-.detalle{
+.detalle {
 	padding-top: 3em;
 }
-.detalle .cicler{
-	width:  5em;
+
+.detalle .cicler {
+	width: 5em;
 	height: 5em;
 	background-color: var(--color-principal);
 }
-.detalle .cicler i{
+
+.detalle .cicler i {
 	font-size: 3em;
 	color: #fff;
 }
@@ -185,30 +174,90 @@ input[type="radio"]:checked~label {
 }
 
 /* publicidad */
-.cont-publicidad{
+.cont-publicidad {
 	background: var(--color-principal);
 	border: 0px none;
 	height: 230px;
-	}
+}
 
 
 /* fin publicidad */
 
 
 /* footer */
-.footer{
+.footer {
 	background-color: #212733;
 	font-family: var(--main-fuente);
-	color:#BBBABA;
+	color: #BBBABA;
 }
 
-.footer a{
-	color:#BBBABA;
+.footer a {
+	color: #BBBABA;
 	text-decoration: underline;
 }
-.footer a:hover{
-	color:#fff;
+
+.footer a:hover {
+	color: #fff;
 }
-.footer .fab{
+
+.footer .fab {
 	font-size: 1.5em;
 }
+
+
+/* #######################
+			@media query's
+*/
+@media screen and (max-width: 400px) {
+	.hero {
+		height: 400px;
+	}
+
+	.hero-text {
+		top: 40%;
+		left: 50%;
+		width: 85%;
+		height: 200px;
+	}
+
+	.hero-text h1 {
+		font-size: 2em;
+	}
+
+	.hero-text span {
+		font-size: 1em;
+	}
+
+	.text {
+		text-align: center;
+	}
+
+	.col-detalle {
+		padding-bottom: 50px;
+	}
+
+	
+
+	.cont-publicidad {
+		height: 400px;
+	}
+
+	.cont-publicidad .container {
+		padding-top: 15px;
+	}
+
+	.font-small p {
+		margin-bottom: 0;
+	}
+
+	.resumen {
+		display: none;
+	}
+}
+@media screen and (max-width:700px) {
+	.phone-img-center {
+		padding: auto;
+		margin: auto;
+	}
+}
+

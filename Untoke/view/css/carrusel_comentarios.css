@@ -23,3 +23,16 @@
 	text-align: center;
 	color: #454545;
 }
+
+/* #######################
+			@media query's
+*/
+
+@media (max-width: 400px) {
+	.testimonial-text{
+		padding: 10px 0%;
+	}
+	.testimonial-text iframe {
+		width: 100%;
+	}	
+}

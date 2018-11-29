@@ -30,11 +30,6 @@
 					<a class="navbar-brand logo" href="#">
 						<img src="img/untoke-logo.svg" height="40" alt="">
 					</a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
-
 					<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
 						<form class="form-inline">
 							<button class="btn btn-outline-form" type="submit" disabled>Mi Panel</button>
@@ -56,44 +51,44 @@
 	<div class="container my-3">
 		<p class="h1 text-center">Conoce más de Untoke</p>
 		<div class="row d-flex align-items-center">
-			<div class="col-7">
+			<div class="col-12 col-md-7 col-detalle">
 				<div class='row detalle'>
-					<div class='col-2'>
+					<div class='col-3 col-md-2'>
 						<div class="cicler rounded-circle text-center d-flex justify-content-center align-items-center">
 							<i class="fas fa-utensils"></i>
 						</div>
 					</div>
-					<div class="col-10">
+					<div class="col-9 col-md-10">
 						<p class="h3 title">¿Se te antoja algo?</p>
 						<p class="detall">Selecciona la categoría y pide en cientos de tiendas
 							registradas y recomendadas.</p>
 					</div>
 				</div>
 				<div class='row detalle'>
-					<div class='col-2 '>
+					<div class='col-3 col-md-2'>
 						<div class="cicler rounded-circle text-center d-flex justify-content-center align-items-center">
 							<i class="fas fa-rocket"></i>
 						</div>
 					</div>
-					<div class="col-10">
+					<div class="col-9 col-md-10">
 						<p class="h3 title">Atención Inmediata</p>
 						<p class="detall">No esperes mucho, tus pedidos en la puerta de tu casa.</p>
 					</div>
 				</div>
 				<div class='row detalle'>
-					<div class='col-2 '>
+					<div class='col-3 col-md-2'>
 						<div class="cicler rounded-circle text-center d-flex justify-content-center align-items-center">
 							<i class="fas fa-medal"></i>
 						</div>
 					</div>
-					<div class="col-10">
+					<div class="col-9 col-md-10">
 						<p class="h3 title">Establecimientos garantizados</p>
 						<p class="detall">Solo encontraras servicios y producto de calidad.</p>
 					</div>
 				</div>
 			</div>
 
-			<div class="col-5">
+			<div class="col-12 col-md-5 phone-img-center">
 				<img src="img/props/phone2.png" class="img-fluid" alt="">
 			</div>
 		</div>
@@ -104,11 +99,11 @@
 	<div class="col-12 cont-publicidad">
 		<div class="container">
 			<div class="row d-flex align-items-center">
-				<div class="col-8 text">
+				<div class="col-md-8 col-sm-8 text">
 					<p class="h2 ">Descarga la App</p>
 					<p class="h4">Una manera sencilla de pedir todo lo que quieras en Untoke.</p>
 				</div>
-				<div class="col-4 text-center">					
+				<div class="col-md-4 col-sm-4 text-center">					
 					<img src="img/props/QR.png" alt="Código QR" width="150"><br>
 					<a href="https://play.google.com/store/apps/details?id=com.miranda.untokeplus&hl=es_PE"><img src="img/props/GooglePlay.png"
 						 width="150"></a>
@@ -156,21 +151,21 @@
 	<footer class="font-small pt-4 footer">
 		<div class="container text-center text-md-left">
 			<div class="row text-center text-md-left mt-3 pb-3">
-				<div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+				<div class="col-md-3 col-lg-3 col-12 mx-auto mt-3">
 					<!-- <h6 class="text-uppercase mb-4 font-weight-bold">Untoke</h6> -->
 					<img src="img/untoke-logo.svg" height="40" alt="">
-					<p class="pt-2">Aplicación creada en la ciudad de Pucallpa - Ucayali - Perú.
+					<p class="pt-2 resumen">Aplicación creada en la ciudad de Pucallpa - Ucayali - Perú.
 						con el fin de ayudar al consumidor y a las pequeñas micro empresas.
 					</p>
 				</div>
 				<!-- <hr class="w-100 clearfix d-md-none"> -->
-				<div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+				<div class="col-md-2 col-lg-2 col-12 mx-auto mt-3">
 					<h6 class="text-uppercase mb-4 titule_footer">Términos legales</h6>
 					<p><a href="#!" class="btn disabled">Términos y condiciones</a></p>
 					<p><a href="#!" class="btn disabled">Seguridad de datos</a></p>
 				</div>
 				<!-- <hr class="w-100 clearfix d-md-none"> -->
-				<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+				<div class="col-md-3 col-lg-2 col-12 mx-auto mt-3">
 					<h6 class="text-uppercase mb-4 titule_footer">Opciones</h6>
 					<p><a href="#!" class="btn disabled">Acerca de</a></p>
 					<p><a href="#!" class="btn disabled">Misión y visión</a></p>
@@ -178,7 +173,7 @@
 					<p><a href="#!" class="btn disabled">Ayuda</a></p>
 				</div>
 				<!-- <hr class="w-100 clearfix d-md-none"> -->
-				<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+				<div class="col-md-4 col-lg-3 mx-auto mt-3">
 					<h6 class="text-uppercase mb-4 titule_footer">Contactos</h6>
 					<p><i class="fas fa-map-marker-alt mr-3"></i>Jr.Bolivia mz.370 lt.11 <br> Pucallpa - Callearía - Perú</p>
 					<p><i class="fa fa-envelope mr-3"></i>untokeapp@gmail.com</p>
