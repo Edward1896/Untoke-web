@@ -208,7 +208,7 @@ input[type="radio"]:checked~label {
 /* #######################
 			@media query's
 */
-@media screen and (max-width: 400px) {
+@media (max-width: 400px) {
 	.hero {
 		height: 400px;
 	}
@@ -236,7 +236,10 @@ input[type="radio"]:checked~label {
 		padding-bottom: 50px;
 	}
 
-	
+	.phone-img-center {
+		padding: auto;
+		margin: auto;
+	}
 
 	.cont-publicidad {
 		height: 400px;
@@ -254,10 +257,7 @@ input[type="radio"]:checked~label {
 		display: none;
 	}
 }
-@media screen and (max-width:700px) {
-	.phone-img-center {
-		padding: auto;
-		margin: auto;
+	
 
 
 
